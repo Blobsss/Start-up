@@ -1,0 +1,69 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Indsæt logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Forside </a></li>
+                    <li><a href="">Om Os</a></li>
+                    <li><a href="">Generelt </a></li>
+                    <li><a href="">Kontakt Os </a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1> indsæt tekst </h1>
+    </section>
+
+
+    <!-----Footer----->
+    <section class="footer">
+        <h4> Indsæt tekst </h4>
+        <p> indsæt tekst </p>
+
+    </section>
+
+    <!------Om Os footer----->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>indsæt tekst</h1>
+                <p> Indsæt tekst </p>
+                <a href="" class="hero-btn red-btn">indsæt tekst</a>
+
+            </div>
+            <div class="about-col">
+                <img src="indsæt billede">
+            </div>
+        </div>
+
+    </section>
+
+    <!------JavaScript for Toggle Menu----->
+
+    <script>var navLinks = document.getElementById("navLinks");
+
+		function showMenu(){
+		navLinks.style.right ="0";
+		}
+
+		function hideMenu(){
+		navLinks.style.right ="-200px";
+		}</script>
+
+</body>
+</html>
